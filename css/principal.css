@@ -1,0 +1,123 @@
+/* line 16, ../sass/variables.scss */
+.clear {
+  clear: both;
+}
+
+/* line 21, ../sass/variables.scss */
+.container-fluid.full-width {
+  padding-left: 0;
+  padding-right: 0;
+  overflow-x: hidden;
+}
+
+/* line 26, ../sass/variables.scss */
+.row.row-no-gutter {
+  margin: 0;
+}
+
+/* line 29, ../sass/variables.scss */
+.row.row-no-gutter [class*="col-"] {
+  padding: 0;
+}
+
+/* line 32, ../sass/variables.scss */
+.img-full-width {
+  width: 100.5%;
+  height: auto;
+}
+
+/* line 36, ../sass/variables.scss */
+.has-inner .row.row-no-gutter {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+/* line 40, ../sass/variables.scss */
+.row.row-no-gutter .inner {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 5, ../sass/principal.scss */
+.cuerpo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 10, ../sass/principal.scss */
+.elm_1 {
+  width: 100%;
+  height: 200px;
+  float: left;
+  background-color: black;
+  margin-top: 20px;
+}
+
+/* line 18, ../sass/principal.scss */
+.elm_2 {
+  width: calc(100% / 6);
+  height: 200px;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #4780ad;
+}
+
+/* line 29, ../sass/principal.scss */
+.elm_3 {
+  width: calc(100% / 4);
+  height: 200px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #005d8c;
+}
+
+/* line 40, ../sass/principal.scss */
+.elm_4 {
+  width: calc(100% / 3);
+  height: 200px;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e5134b;
+}
+
+/* line 51, ../sass/principal.scss */
+.imagen {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -15px;
+  width: 185px;
+}
+
+/* line 58, ../sass/principal.scss */
+.imagen_bootstrap {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 64, ../sass/principal.scss */
+.imagen_fondo_col {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 73, ../sass/principal.scss */
+.float {
+  height: 200px;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  background-color: #4780ad;
+  border: 1px solid #005d8c;
+}

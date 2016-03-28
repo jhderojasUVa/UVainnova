@@ -1,0 +1,29 @@
+// Estilos menus
+
+@import "variables";
+
+html {
+	font-face: $fonts_opensans;
+}
+
+.cabecera {
+	background-color: $negro;
+	.menu_sup {
+		ul ,li {
+			font-face: $fonts_roboto;
+			float: right;
+			padding-right: $padding_med;
+			list-style: none;
+		}
+	}
+
+	.banner_central {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.menu_inf {
+		background-color: $negro;
+	}
+}

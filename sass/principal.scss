@@ -1,0 +1,81 @@
+// Elementos de la principal
+
+@import "variables";
+
+.cuerpo {
+	margin-top: $padding_big;
+	margin-bottom: $padding_big;
+}
+
+.elm_1 {
+	width: 100%;
+	height: 200px;
+	float: left;
+	background-color: $negro;
+	margin-top: $padding_big;
+}
+
+.elm_2 {
+	width: calc(100% / 6);
+	height: 200px;
+	float: left;
+	margin-left: $padding_med;
+	margin-right: $padding_med;
+	margin-top: $padding_big;
+	padding: $padding_med;
+	background-color: $azul_uva;
+}
+
+.elm_3 {
+	width: calc(100% / 4);
+	height: 200px;
+	float: left;
+	margin-left: $padding_peq;
+	margin-right: $padding_peq;
+	margin-top: $padding_big;
+	padding: $padding_med - $padding_peq;
+	background-color: $azul_uva_oscuro;
+}
+
+.elm_4 {
+	width: calc(100% / 3);
+	height: 200px;
+	float: left;
+	margin-left: $padding_med;
+	margin-right: $padding_med;
+	margin-top: $padding_big;
+	padding: $padding_med;
+	background-color: $rojo_uva;
+}
+
+.imagen {
+	margin-left: -$padding_med;
+	margin-right: -$padding_med;
+	margin-top: -$padding_med;
+	width: 185px;
+}
+
+.imagen_bootstrap {
+	margin-left: -$padding_med;
+	margin-right: -$padding_med;
+	//width: 185px;
+}
+
+.imagen_fondo_col {
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+// Vamos a jugar con los col-md
+
+.float {
+	height: 200px;
+	float: left;
+	margin-left: $padding_med;
+	margin-right: $padding_med;
+	margin-bottom: $padding_big;
+	background-color: $azul_uva;
+	border: 1px solid $azul_uva_oscuro;
+}
