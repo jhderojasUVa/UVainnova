@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>UVaInnova</title>
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/principal.css">
+	<link rel="stylesheet" href="css/botones.css">
+	<link rel="stylesheet" href="css/menus.css">
+	<!-- JS -->
+	<script src="js/principal.js"></script>
+</head>
+<body>
+	<!-- aviso -->
+	<div class="container-fluid full-width aviso">
+		<div class="col-md-12">
+			<p><span class="boton" style="float: right"><a href="javascript:cerrar_aviso();">X</a></span>Utilizamos cookies propias y de terceros para mejorar nuestros servicios y mostrarle publicidad relacionada con sus preferencias mediante el análisis de sus hábitos de navegación. Si continua navegando, consideramos que acepta su uso. Puede <a href="#">cambiar la configuración u obtener más información aquí</a>.</p>
+		</div>
+	</div>
+	<!-- cabecera -->
+	<div class="container" style="margin-top: 10px;margin-bottom: 10px;">
+		<div class="row">
+			<div class="col-md-3 hidden-xs hidden-sm">
+				<img src="http://placehold.it/300x90" class="img-responsive" alt="UVaInnova"/>
+			</div>
+			<div class="col-md-9 hidden-xs hidden-sm">
+				<div class="caja_menu_cabecera">
+					<ul>
+						<li class="menu"><a href="#">inicio</a></li>
+						<li class="menu">|</li>
+						<li class="menu"><a href="#">qu&eacute; es uvainnova</a></li>
+						<li class="menu">|</li>
+						<li class="menu"><a href="#">cont&aacute;ctenos</a></li>
+						<li class="menu">|</li>
+						<li class="menu"><a href="#">mapa del sitio</a></li>
+					</ul>
+					<ul>
+						<li class="botones"><a href="#"><span class="boton">RSS</span></a></li>
+						<li class="botones"><a href="#"><span class="boton">G</span></a></li>
+						<li class="botones"><a href="#"><span class="boton">F</span></a></li>
+						<li class="botones"><a href="#"><span class="boton">T</span></a></li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<!-- tlf o similar -->
+			<div class="caja_menu_cabecera_telefono col-md-12 hidden-md hidden-lg">
+				<div class="tabla">
+					<ul class="horizontal">
+						<li><a href="#">inicio</a></li>
+						<li><a href="#">qu&eacute; es</a></li>
+						<li><a href="#">contacto</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="caja_menu_cabecera_telefono col-md-12 hidden-md hidden-lg">
+				<div class="tabla">
+					<ul class="horizontal">
+						<li>T</li>
+						<li>F</li>
+						<li>G</li>
+						<li>RSS</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- nav -->
+	<div class="container">
+		<div class="row menu_horizontal">
+			<div class="col-md-12 hidden-sm hidden-xs">
+				<div class="tabla">
+					<ul class="horizontal">
+						<li><a href="#">Actualidad</a></li>
+						<li>|</li>
+						<li><a href="#">Novedades</a></li>
+						<li>|</li>
+						<li><a href="#">Premios</a></li>
+						<li>|</li>
+						<li><a href="#">Yo soy UVa</a></li>
+						<li>|</li>
+						<li><a href="#">Agenda</a></li>
+						<li>|</li>
+						<li><a href="#">Convocatorias</a></li>
+						<li>|</li>
+						<li><a href="#">Mediateca</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- tlf o similar -->
+			<div class="col-sm-12 hidden-md hidden-lg">
+				<select class="nav_tlf">
+					<option value="#">actualidad</option>
+					<option value="#">novedades</option>
+					<option value="#">premios</option>
+					<option value="#">yo soy uva</option>
+					<option value="#">agenda</option>
+					<option value="#">convocatorias</option>
+					<option value="#">mediateca</option>
+				</select>
+			</div>
+		</div>
+	</div>
+	<!-- migas -->
+	<div class="container">
+		<div class="row migas">
+			<div class="col-md-12">
+				<a href="#">Inicio</a> &gt; <a href="#">Novedades</a> &gt; Lorem ipsum lo que sea que se pone
+			</div>
+		</div>
+	</div>
+	<!-- cuerpo -->
+	<div class="container">
+		<div class="row">
+			<!-- caja -->
+			<div class="col-md-4 caja">
+				<img class="imagen img-responsive" src="http://placehold.it/345x175" alt="imagen">
+				<p><span class="seccion morado">actualidad</span></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis aliquam leo. Cras iaculis posuere sapien ut consectetur. Praesent vehicula nulla neque, vel tempor justo semper at.</p>
+				<p><span class="leermas fondo_morado"><a href="#">leer m&aacute;s &gt;</a></span></p>
+			</div>
+			<!-- caja -->
+			<div class="col-md-4 caja">
+				<img class="imagen img-responsive" src="http://placehold.it/345x175" alt="imagen">
+				<p><span class="seccion rojo">novedades</span></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis aliquam leo. Cras iaculis posuere sapien ut consectetur. Praesent vehicula nulla neque, vel tempor justo semper at.</p>
+				<p><span class="leermas fondo_rojo"><a href="#">leer m&aacute;s &gt;</a></span></p>
+			</div>
+			<!-- caja -->
+			<div class="col-md-4 caja">
+				<img class="imagen img-responsive" src="http://placehold.it/345x175" alt="imagen">
+				<p><span class="seccion lima">premios</span></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis aliquam leo. Cras iaculis posuere sapien ut consectetur. Praesent vehicula nulla neque, vel tempor justo semper at.</p>
+				<p><span class="leermas fondo_lima"><a href="#">leer m&aacute;s &gt;</a></span></p>
+			</div>
+			<!-- caja -->
+			<div class="col-md-4 caja">
+				<img class="imagen img-responsive" src="http://placehold.it/345x175" alt="imagen">
+				<p><span class="seccion naranja">convocatoria</span></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis aliquam leo. Cras iaculis posuere sapien ut consectetur. Praesent vehicula nulla neque, vel tempor justo semper at.</p>
+				<p><span class="leermas fondo_naranja"><a href="#">leer m&aacute;s &gt;</a></span></p>
+			</div>
+			<!-- caja -->
+			<div class="col-md-4 caja">
+				<img class="imagen img-responsive" src="http://placehold.it/345x175" alt="imagen">
+				<p><span class="seccion morado">soy la uva</span></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis aliquam leo. Cras iaculis posuere sapien ut consectetur. Praesent vehicula nulla neque, vel tempor justo semper at.</p>
+				<p><span class="leermas fondo_morado"><a href="#">leer m&aacute;s &gt;</a></span></p>
+			</div><!-- caja -->
+			<div class="col-md-4 caja">
+				<img class="imagen img-responsive" src="http://placehold.it/345x175" alt="imagen">
+				<p><span class="seccion lima">mediateca</span></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis aliquam leo. Cras iaculis posuere sapien ut consectetur. Praesent vehicula nulla neque, vel tempor justo semper at.</p>
+				<p><span class="leermas fondo_lima"><a href="#">leer m&aacute;s &gt;</a></span></p>
+			</div>
+			<!-- caja -->
+			<div class="col-md-4 caja">
+				<img class="imagen img-responsive" src="http://placehold.it/345x175" alt="imagen">
+				<p><span class="seccion azul">agenda</span></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis aliquam leo. Cras iaculis posuere sapien ut consectetur. Praesent vehicula nulla neque, vel tempor justo semper at.</p>
+				<p><span class="leermas fondo_azul"><a href="#">leer m&aacute;s &gt;</a></span></p>
+			</div>
+		</div>
+	</div>
+	<!-- pie -->
+	<div class="container-fluid full-width footer">
+		<div class="col-md-12" style="height: 300px; background-color: #007cd1;"></div>
+	</div>
+</body>
+</html>

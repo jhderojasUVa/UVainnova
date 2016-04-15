@@ -1,0 +1,14 @@
+@import 'definiciones';
+// Botones
+
+.boton {
+	border: 1px solid $negro;
+	background-color: $blanco;
+	text-align: center;
+	padding: 5px 15px;
+	font-variant: small-caps;
+}
+
+.caja_menu_cabecera .boton {
+	border: 1px solid $gris;
+}

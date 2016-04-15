@@ -1,0 +1,49 @@
+// Definiciones estandar de variables
+$fonts_roboto: "Roboto", sans-serif;
+$fonts_opensans: "Opensans", sans-serif;
+
+$azul_uva: #4780ad;
+$azul_uva_oscuro: #005d8c;
+$rojo_uva: #e5134b;
+$negro: black;
+
+$padding_peq: 10px;
+$padding_med: 15px;
+$padding_big: 20px;
+$gutter: 30px;
+
+// Limpieza estandar
+.clear {
+	clear: both;
+}
+
+// Extras Bootstrap
+.container-fluid.full-width {
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+.row.row-no-gutter {
+    margin: 0
+}
+.row.row-no-gutter [class*="col-"] {
+    padding: 0
+}
+.img-full-width {
+    width: 100.5%;
+    height: auto;
+}
+.has-inner .row.row-no-gutter {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.row.row-no-gutter .inner {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+// Parche bootstrap
+org-opencms-gwt-client-ui-css-I_CmsDirectEditCss-optionBar {
+    position: relative;
+    right: 0 !important;
+}

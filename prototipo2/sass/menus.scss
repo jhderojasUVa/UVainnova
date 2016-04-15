@@ -1,0 +1,92 @@
+@import "definiciones";
+// Menu cabecera
+
+.caja_menu_cabecera {
+	//border-bottom: 1px solid $gris;
+	height: 30px;
+	color: $gris;
+	font-variant: small-caps;
+	ul {
+		list-style-type: none;
+		li.menu {
+			font-size: 1.1em;
+			float: left;
+			margin: 0 calc(2% / 3);
+		}
+		li.botones {
+			float: right;
+			margin: 0 calc(2% / 3);
+		}
+	}
+	a {
+		color: $gris;
+	}
+}
+
+.caja_menu_cabecera_telefono {
+	font-variant: small-caps;
+	height: 20px;
+	margin-top: 5px;
+	margin-bottom: -5px;
+	background-color: $azul_gay;
+	font-size: 0.9em;
+	.tabla {
+		display: table;
+		margin: 0 auto;
+	}
+	ul.horizontal {
+		list-style: none;
+		min-width: 380px;
+		li {
+			display: inline;
+			margin-left: 4%;
+			margin-right: 4%;
+		}
+	}
+}
+
+// NAV
+
+.menu_horizontal {
+	border-bottom: 1px solid $gris;
+	border-top: 1px solid $gris;
+	padding-top: $pequeño;
+	font-size: 1.5em;
+	color: $gris;
+	.tabla {
+		display: table;
+		margin: 0 auto;
+	}
+	ul.horizontal {
+		min-width: 696px;
+		list-style: none;
+		li {
+			display: inline;
+			//padding: 0 calc(10% / 3);
+			padding-left: $pequeño;
+			padding-right: $pequeño;
+		}
+	}
+	a {
+		color: $azul;
+	}
+}
+
+.nav_tlf {
+	select {
+		width: 380px;
+	}
+}
+
+// MIGAS
+.migas {
+	color: $gris;
+	border-bottom: 1px solid $gris;
+	font-size: 0.8em;
+	padding: $enano $pequeño;
+
+	a {
+		text-decoration: underline;
+		color: $gris;
+	}
+}

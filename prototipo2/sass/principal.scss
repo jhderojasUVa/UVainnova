@@ -1,0 +1,74 @@
+@import 'definiciones';
+
+// Aviso
+.aviso {
+	font-size: 12px;
+	border-bottom: 5px solid $azul_gay_oscuro;
+	background-color: $azul_gay;
+	margin-bottom: $pequeño;
+	padding: 5px 15px;
+}
+
+// Cajas
+
+.caja {
+	margin-top: $pequeño;
+	font-size: 1em;
+	color: $negro;
+	.imagen {
+		border: 1px solid $gris;
+		margin-bottom: $pequeño;
+	}
+	.seccion {
+		padding: 4px;
+		font-variant: small-caps;
+		font-size: 0.8em;
+	}
+
+	.leermas {
+		padding: 3px  $pequeño;
+		a {
+			color: white;
+			font-variant: small-caps;
+			font-size: .9em;
+		}
+	}
+}
+
+// Colores cajas bordes y fondos planos (con fondo)
+.azul {
+	border: 1px solid $azul;
+}
+.fondo_azul {
+	background-color: $azul;
+}
+.morado {
+	border: 1px solid $morado;
+}
+.fondo_morado {
+	background-color: $morado;
+}
+.rojo {
+	border: 1px solid $rojo;
+}
+.fondo_rojo {
+	background-color: $rojo;
+}
+.lima {
+	border: 1px solid $lima;
+}
+.fondo_lima {
+	background-color: $lima;
+}
+.naranja {
+	border: 1px solid $naranja;
+}
+.fondo_naranja {
+	background-color: $naranja;
+}
+
+// Footer
+
+.footer {
+	margin-top: $grande;
+}
