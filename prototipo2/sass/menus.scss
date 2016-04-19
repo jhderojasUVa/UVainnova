@@ -25,11 +25,11 @@
 
 .caja_menu_cabecera_telefono {
 	font-variant: small-caps;
-	height: 20px;
+	height: 35px;
 	margin-top: 5px;
 	margin-bottom: -5px;
 	background-color: $azul_gay;
-	font-size: 0.9em;
+	font-size: 1.5em;
 	.tabla {
 		display: table;
 		margin: 0 auto;
@@ -46,12 +46,11 @@
 }
 
 // NAV
-
 .menu_horizontal {
 	border-bottom: 1px solid $gris;
 	border-top: 1px solid $gris;
 	padding-top: $pequeño;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	color: $gris;
 	.tabla {
 		display: table;
@@ -73,9 +72,33 @@
 }
 
 .nav_tlf {
+	border: 1px solid $gris;
+	width: 360px;
+	overflow: hidden;
+	background-color: $blanco;
+	position: relative;
+	margin-bottom: $pequeño;
 	select {
-		width: 380px;
+		padding: 5px 8px;
+		width: 130%;
+		background-color: transparent;
+		background-image: none;
+		appearance: none;
 	}
+}
+
+.nav_tlf:before {
+	content: '';
+	position: absolute;
+	top: 7px;
+	right: 5px;
+	width: 0;
+	height: 0;
+  border-style: solid;
+  border-width: 7px 5px 0 5px;
+  border-color: #000000 transparent transparent transparent;
+  z-index: 5;
+  pointer-events: none;
 }
 
 // MIGAS
